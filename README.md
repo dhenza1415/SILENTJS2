@@ -1,11 +1,13 @@
 
-How to run ?
+# CARA INSTALL
+Mohon gunakan sc ini dngn bijak
 ------
-- `git clone https://github.com/wuchin/botkis`
-- `cd botkick && npm install`
+- `git clone https://github.com/dhenza1415/SILENTJS2`
+- `cd SILENTJS2 && npm install`
 - `cd src`
 - `npm start`
 
-Author
+
+## FOLLOW
 ------
-[@arifistifik](https://instagram.com/arifistifik)
+[@Dhenza](https://instagram.com/dhenza15)
