@@ -1,12 +1,9 @@
 const { hostname, platform } = require('os');
 
-const whichPlatform = platform() === 'darwin' ? 'MAC' : 'win32';
+const whichPlatform = platform() === 'DHENZA' ? 'MAC' : 'win32';
 
 const config = {
-  LINE_DOMAIN_INDO: 'gd2i.line.naver.jp',
-  LINE_DOMAIN_FAST: 'gfv.line.naver.jp',
-  LINE_DOMAIN_TOOFAST: 't.line.naver.jp',
-  LINE_DOMAIN: 'gf.line.naver.jp',
+  LINE_DOMAIN: 'gd2.line.naver.jp',
   LINE_DOMAIN_2ND: 'gd2.line.naver.jp',
   LINE_DOMAIN_3RD: 'gfs.line.naver.jp', 
   LINE_DOMAIN_4TH: 'gfps.line.naver.jp',
@@ -36,17 +33,23 @@ const config = {
   LINE_SESSION_NAVER_URL: '/authct/v1/keys/naver',
   LINE_POST_CONTENT_URL: 'https://os.line.naver.jp/talk/m/upload.nhn',
   LINE_POST_CONTENT_URL_2ND: 'https://obs-sg.line-apps.com/talk/m/upload.nhn',
-  X_LINE_APP: 'IOSIPAD 7.14.0 iPhone OS 10.12.0',
-  //X_LINE_APP: 'CHROMEOS 1.4.13  Chrome_OS 1',
-  ip: '127.0.0.1',
+  X_LINE_APP: 'IOSIPAD\t8.11.0\tDhenza-PC\t8.11.0',
+  ip: '11.2.5',
   version: '0.0.2',
   revision: 0,
   hostname: hostname(),
   platform: whichPlatform,
   EMAIL_REGEX: /[^@]+@[^@]+\.[^@]+/,
   Headers: {
-    'User-Agent':'Line/7.18.1'
-  }
+    'User-Agent':'Line/8.11.0'
+  },
+  FILE_DOWNLOAD_LOCATION: '/../download/',
+  YT_DL: 'http://www.saveitoffline.com/process/',
+  tokenn: '',
+  chanToken: '',
+  certificate: '',
+  botmid: '',
+  doing: 'no'
 };
 
 module.exports = config;
